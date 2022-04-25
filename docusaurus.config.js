@@ -60,18 +60,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {
-            type: 'doc',
-            docId: 'MLOps/intro',
-            position: 'left',
-            label: 'MLOps'
-          },
-          {
-            type: 'doc',
-            docId: 'system-design/system-design',
-            position: 'left',
-            label: 'System Design'
-          },
+          { to: 'docs/ML/interview/leetcode', position: 'left', label: 'Interview' },
           { to: '/blog', label: 'Blog', position: 'left' },
 
         ],
@@ -105,7 +94,7 @@ const config = {
               // },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/dipankarmedh1',
               },
             ],
           },
@@ -118,7 +107,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Dipankar-Medhi/the-mlengineer-notebook',
               },
             ],
           },

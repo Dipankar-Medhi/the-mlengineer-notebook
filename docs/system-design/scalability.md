@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+sidebar_label: Scalability
 ---
 
 CS75 Scalability lecture

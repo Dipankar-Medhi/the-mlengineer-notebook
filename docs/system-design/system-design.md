@@ -1,11 +1,9 @@
 ---
-sidebar_positino: 1
+sidebar_position: 1
 sidebar_label: What is System Design
 title: What is System Design?
-id: system-design
+id: intro
 ---
-
-## System Design
 
 
 ## How to approach system design problems?
