@@ -1,4 +1,8 @@
-
+---
+sidebar_label: What is MLOps
+title: What is MLOps?
+sidebar_position: 1
+---
 
 ## Machine Learning Operation of a well know enterprice
 

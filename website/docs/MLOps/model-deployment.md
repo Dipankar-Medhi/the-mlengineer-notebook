@@ -1,7 +1,7 @@
 ---
 sidebar_label: Model Deployment
 title: Model Deployment
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 It is the process of making our model available in production, where they can serve to other systems.

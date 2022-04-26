@@ -1,7 +1,7 @@
 ---
 sidebar_label: ML System Architecture
 title: Machine Learning System Architecture
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Machine learning in production requires different compnents such as 

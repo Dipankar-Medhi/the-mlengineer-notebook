@@ -4,7 +4,7 @@ id: intro
 title: Introduction
 ---
 
-The ML Engineer Notebook is a notebook(website/repo) that contains all my learnings and essential resources available on the internet to become a good Machine Learning Engineer.
+The ML Engineer Notebook is a notebook (website/repo) that contains all my learnings and essential resources available on the internet to become a good Machine Learning Engineer.
 
 The repository is constantly being updated with new and updated resources every week. 
 

@@ -57,7 +57,7 @@ const config = {
           },
           {
             href: 'https://github.com/Dipankar-Medhi/the-mlengineer-notebook',
-            label: 'GitHub',
+            className: 'navbar-icon navbar-icon-github',
             position: 'right',
           },
           { to: 'docs/ML/interview/leetcode', position: 'left', label: 'Interview' },
@@ -112,7 +112,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The ML Engineering Notebook, Inc. Built with ❤ and Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

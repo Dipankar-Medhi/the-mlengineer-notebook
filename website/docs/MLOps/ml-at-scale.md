@@ -1,6 +1,7 @@
 ---
 sidebar_label: Machine Learning at Scale
 title: Machine Learning at Scale
+sidebar_position: 2
 ---
 
 ### Simplify and Automate data access and management
