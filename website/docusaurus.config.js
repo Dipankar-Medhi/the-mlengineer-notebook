@@ -11,7 +11,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'The ML Engineer Notebook',
   tagline: 'A Machine Learning Engineer notebook that includes everything to become a great ML Engineer.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://themlengineernotebook.live/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,7 +27,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Dipankar-Medhi/the-mlengineer-notebook',
+          editUrl: 'https://github.com/Dipankar-Medhi/the-mlengineer-notebook/website/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
