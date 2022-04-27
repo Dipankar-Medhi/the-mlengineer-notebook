@@ -5,13 +5,13 @@ title: Variance and Standard deviation
 ## Variance
 
 
-
 Variance measures the dispersion of a set of data points around their mean. 
 
 :::info Formula
-***Population variance*** = *σ*2 = $\frac{\sum_{i=1}^{N}(x_i-\mu)^2}{N}$ > ***Sample variance*** = *S*2 = $\frac{\sum_{i=1}^{n}(x_i-\bar x)^2}{n-1}$
+***Population variance*** = $\sigma^2$ = $\frac{\sum_{i=1}^{N}(x_i-\mu)^2}{N}$ > ***Sample variance*** = $S^2$ = $\frac{\sum_{i=1}^{n}(x_i-\bar x)^2}{n-1}$
 
-Reson foar squaring - distance cannot be negative(-ve).
+
+> Reason for squaring -> distance cannot be negative(-ve).
 :::
 
 :::tip

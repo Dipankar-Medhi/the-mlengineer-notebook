@@ -39,4 +39,3 @@ It is a technique of combining individual predictive models to produce the final
     - Stacking
 
 
-"People who push onward see a different kind of hell, They are looking at something past that hell. It might be hope, or it might just be another hell, only those who keep moving forward will know for sure" - Eren Yeager

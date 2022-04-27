@@ -1,5 +1,6 @@
 ---
 title: Linear Regression
+sidebar_label: Linear Regression
 ---
 
 :::tip Sources
