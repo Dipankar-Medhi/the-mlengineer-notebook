@@ -61,3 +61,14 @@ html[data-theme='dark'] .navbar-icon-github:before {
   width: 28px;
   color: white;
 }
+
+.navbar-icon-twitter:before {
+  background-image: url('/img/icons8-twitter.svg');
+}
+
+html[data-theme='dark'] .navbar-icon-twitter:before {
+  background-image: url('/img/icons8-twitter-white.svg');
+  height: 28px;
+  width: 28px;
+  color: white;
+}

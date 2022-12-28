@@ -56,6 +56,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      hideableSidebar: true,
+      metadata: [{
+        name: 'keywords', content: 'resources, blog, interview, questions, system design, engineer, machine learning, data science'
+      }],
       navbar: {
         title: 'TheMLEngineerNotebook',
         logo: {
@@ -70,10 +74,16 @@ const config = {
             label: 'Machine Learning',
           },
           {
+            href: 'https://twitter.com/themlengineernb',
+            className: 'navbar-icon navbar-icon-twitter',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/Dipankar-Medhi/the-mlengineer-notebook',
             className: 'navbar-icon navbar-icon-github',
             position: 'right',
           },
+
           { to: 'docs/ML/interview/leetcode', position: 'left', label: 'Interview' },
           { to: '/blog', label: 'Blog', position: 'left' },
 
@@ -108,7 +118,7 @@ const config = {
               // },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/dipankarmedh1',
+                href: 'https://twitter.com/themlengineernb',
               },
             ],
           },
@@ -126,7 +136,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} The ML Engineering Notebook, Inc. Built with ❤ and Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The ML Engineer Notebook. Built with ❤ and Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

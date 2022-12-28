@@ -11,7 +11,17 @@ Deploying a model requires the coordination of data scientists, software develop
 ## Machine Learning Pipelines
 
 ```yaml
-Data --> ETL(Extract, transform and load) --> Data Preprocessing --> Feature selection --> Model building --> Deployment
+Data 
+    |
+    ETL(Extract transform and load) 
+        | 
+        Data Preprocessing
+            | 
+            Feature selection 
+                |
+                Model building
+                    |
+                    Deployment
 ```
 
 :::note
