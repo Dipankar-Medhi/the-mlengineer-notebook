@@ -58,21 +58,40 @@ const config = {
     ({
       hideableSidebar: true,
       metadata: [{
-        name: 'keywords', content: 'resources, blog, interview, questions, system design, engineer, machine learning, data science'
+        name: 'keywords',
+        content: 'resources, blog, interview, questions, system design, engineer, machine learning, data science'
       }],
       navbar: {
         title: 'TheMLEngineerNotebook',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Site Logo',
           src: 'img/docusaurus.png',
         },
         items: [
+          // resource items
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Machine Learning',
+            label: '📒 Read ML Notes',
           },
+          {
+            to: 'docs/ML/interview/leetcode',
+            position: 'left',
+            label: '🧠 For Interviews'
+          },
+          {
+            to: '/blog',
+            label: '📰 Blog',
+            position: 'left'
+          },
+          {
+            to: '/papers',
+            position: 'left',
+            label: '📜 Paper Review'
+          },
+
+          // links
           {
             href: 'https://twitter.com/themlengineernb',
             className: 'navbar-icon navbar-icon-twitter',
@@ -84,8 +103,6 @@ const config = {
             position: 'right',
           },
 
-          { to: 'docs/ML/interview/leetcode', position: 'left', label: 'Interview' },
-          { to: '/blog', label: 'Blog', position: 'left' },
 
         ],
       },
