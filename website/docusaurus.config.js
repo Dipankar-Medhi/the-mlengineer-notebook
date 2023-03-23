@@ -76,7 +76,7 @@ const config = {
             label: '📒 Read ML Notes',
           },
           {
-            to: 'docs/ML/interview/leetcode',
+            to: 'docs/interview/leetcode',
             position: 'left',
             label: '🧠 For Interviews'
           },
@@ -118,12 +118,12 @@ const config = {
               },
               {
                 label: 'Interview Resources',
-                to: '/docs/ML/interview/leetcode'
+                to: '/docs/interview/leetcode'
               },
-              {
-                label: 'MLOps',
-                to: '/docs/MLOps/intro'
-              }
+              // {
+              //   label: 'MLOps',
+              //   to: '/docs/MLOps/intro'
+              // }
             ],
           },
           {
