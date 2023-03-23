@@ -85,11 +85,11 @@ const config = {
             label: '📰 Blog',
             position: 'left'
           },
-          {
-            to: '/papers',
-            position: 'left',
-            label: '📜 Paper Review'
-          },
+          // {
+          //   to: 'docs/papers',
+          //   position: 'left',
+          //   label: '📜 Paper Review'
+          // },
 
           // links
           {
