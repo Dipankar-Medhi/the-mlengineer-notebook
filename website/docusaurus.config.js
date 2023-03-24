@@ -56,26 +56,53 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      hideableSidebar: true,
+      metadata: [{
+        name: 'keywords',
+        content: 'resources, blog, interview, questions, system design, engineer, machine learning, data science'
+      }],
       navbar: {
         title: 'TheMLEngineerNotebook',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Site Logo',
           src: 'img/docusaurus.png',
         },
         items: [
+          // resource items
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Machine Learning',
+            label: '📒 Read ML Notes',
+          },
+          {
+            to: 'docs/interview/leetcode',
+            position: 'left',
+            label: '🧠 For Interviews'
+          },
+          {
+            to: '/blog',
+            label: '📰 Blog',
+            position: 'left'
+          },
+          // {
+          //   to: 'docs/papers',
+          //   position: 'left',
+          //   label: '📜 Paper Review'
+          // },
+
+          // links
+          {
+            href: 'https://twitter.com/themlengineernb',
+            className: 'navbar-icon navbar-icon-twitter',
+            position: 'right',
           },
           {
             href: 'https://github.com/Dipankar-Medhi/the-mlengineer-notebook',
             className: 'navbar-icon navbar-icon-github',
             position: 'right',
           },
-          { to: 'docs/ML/interview/leetcode', position: 'left', label: 'Interview' },
-          { to: '/blog', label: 'Blog', position: 'left' },
+
 
         ],
       },
@@ -91,12 +118,12 @@ const config = {
               },
               {
                 label: 'Interview Resources',
-                to: '/docs/ML/interview/leetcode'
+                to: '/docs/interview/leetcode'
               },
-              {
-                label: 'MLOps',
-                to: '/docs/MLOps/intro'
-              }
+              // {
+              //   label: 'MLOps',
+              //   to: '/docs/MLOps/intro'
+              // }
             ],
           },
           {
@@ -108,7 +135,7 @@ const config = {
               // },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/dipankarmedh1',
+                href: 'https://twitter.com/themlengineernb',
               },
             ],
           },
@@ -126,7 +153,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} The ML Engineering Notebook, Inc. Built with ❤ and Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The ML Engineer Notebook. Built with ❤ and Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

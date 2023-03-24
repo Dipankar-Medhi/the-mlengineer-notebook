@@ -10,6 +10,7 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <meta property="og:image" content="img/image.png" />
       <div className="container">
         <img src='/img/docusaurus.png' width={300}></img>
         <h1 className="hero__title">{siteConfig.title}</h1>
@@ -30,8 +31,10 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
+
       title={`${siteConfig.title}`}
-      description="A Machine Learning Engineer notebook that includes everything to become a great ML Engineer.">
+      description="A knowledge hub for Machine learning engineers.">
+
       <HomepageHeader />
       <main>
         <HomepageFeatures />
