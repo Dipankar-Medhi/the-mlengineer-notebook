@@ -22,6 +22,6 @@ The repository is constantly being updated with new resources every week. My goa
 
 ```yml
 👨‍🦱 Dipankar Medhi
-🛠 Solve engineering problems with data and ML
+🛠 Solving engineering problems with data and ML
 ```
 
