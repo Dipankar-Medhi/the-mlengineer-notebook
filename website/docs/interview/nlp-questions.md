@@ -8,7 +8,7 @@ sidebar_position: 7
 https://www.kaggle.com/getting-started/183949
 ::: 
 
-Q1. Which of the following techniques can be used for keyword normalization in NLP, the process of converting a keyword into its base form?
+**Q1. Which of the following techniques can be used for keyword normalization in NLP, the process of converting a keyword into its base form?**
 a.	Lemmatization
 b.	Soundex
 c.	Cosine Similarity

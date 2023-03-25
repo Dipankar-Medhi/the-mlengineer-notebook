@@ -17,13 +17,13 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #e0e1dd;
-  --ifm-color-primary-dark: #d4d5d2;
-  --ifm-color-primary-darker: #e0e1dd;
-  --ifm-color-primary-darkest: #babbb7;
-  --ifm-color-primary-light: #e0e1dd;
-  --ifm-color-primary-lighter: #f4f5f4;
-  --ifm-color-primary-lightest: #f3f5ee;
+  --ifm-color-primary: #f6f862;
+  --ifm-color-primary-dark: #eaed36;
+  --ifm-color-primary-darker: #eff322;
+  --ifm-color-primary-darkest: rgb(210, 245, 86);
+  --ifm-color-primary-light: #f5f770;
+  --ifm-color-primary-lighter: #f3f4a4;
+  --ifm-color-primary-lightest: #f8f9c1;
 }
 
 .docusaurus-highlight-code-line {
